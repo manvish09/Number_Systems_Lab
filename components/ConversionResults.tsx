@@ -27,8 +27,7 @@ export default function ConversionResults({
       <div
         className="
           bg-slate-100
-          px-6
-          py-4
+          px-4 sm:px-6 py-4
         "
       >
         <div
@@ -52,17 +51,19 @@ export default function ConversionResults({
       </div>
 
       <div className="p-4 sm:p-6">
-
-        <div
-          className="
-            font-mono
-           text-xl sm:text-2xl md:text-4xl
-            font-bold
-            break-all
-            text-blue-600
-          "
-        >
-          {result}
+        <div className="w-full overflow-x-auto pb-2">
+          <div
+            className="
+              min-w-max
+              whitespace-nowrap
+              font-mono
+              text-xl sm:text-2xl md:text-4xl
+              font-bold
+              text-blue-600
+            "
+          >
+            {result}
+          </div>
         </div>
 
         <div
@@ -80,7 +81,6 @@ export default function ConversionResults({
         >
           Base {targetBase}
         </div>
-
       </div>
     </div>
   );
