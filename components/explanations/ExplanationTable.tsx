@@ -13,10 +13,9 @@ export default function ExplanationTable({
   rows,
 }: Props) {
   return (
-    <div className="rounded-xl border overflow-hidden">
-
-      <table className="w-full text-sm">
-
+    <div className="overflow-x-auto">
+    <div className="rounded-xl border overflow-hidden min-w-[600px]">
+    <table className="w-full text-sm">
         <thead className="bg-slate-100">
 
           <tr>
@@ -64,6 +63,7 @@ export default function ExplanationTable({
 
       </table>
 
+    </div>
     </div>
   );
 }

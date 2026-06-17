@@ -51,12 +51,12 @@ export default function ConversionResults({
         </div>
       </div>
 
-      <div className="p-6">
+      <div className="p-4 sm:p-6">
 
         <div
           className="
             font-mono
-            text-4xl
+           text-xl sm:text-2xl md:text-4xl
             font-bold
             break-all
             text-blue-600

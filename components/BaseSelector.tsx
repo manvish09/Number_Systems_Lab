@@ -31,7 +31,7 @@ export default function BaseSelector({
   ];
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3">
       {options.map((option) => (
         <button
           key={option.value}
@@ -42,7 +42,8 @@ export default function BaseSelector({
           }
           className={`
   rounded-xl
-  p-4
+  p-3 sm:p-4
+  text-sm sm:text-base
   border
   transition-all
   hover:shadow-md

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;

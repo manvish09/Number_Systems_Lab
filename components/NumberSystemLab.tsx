@@ -56,7 +56,7 @@ export default function NumberSystemLab() {
     ]);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-4 sm:space-y-6 md:space-y-8">
 
       {/* Input */}
 
@@ -82,16 +82,10 @@ export default function NumberSystemLab() {
             w-full
             rounded-2xl
             border
-            p-4
-            text-2xl
+          p-3 sm:p-4
+text-lg sm:text-xl md:text-2xl
           "
-          placeholder="
-            Examples:
-            1011.101
-            57.3
-            59.375
-            2A.8
-          "
+          placeholder="1011.101, 57.3, 59.375, 2A.8"
         />
 
       </div>

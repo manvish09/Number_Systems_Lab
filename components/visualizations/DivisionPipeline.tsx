@@ -42,17 +42,17 @@ export default function DivisionPipeline({
 
             <div
               key={index}
-              className="
-                grid
-                grid-cols-4
-                gap-6
-                rounded-xl
-                border
-                bg-slate-50
-                px-5
-                py-4
-                items-center
-              "
+             className="
+ grid
+  grid-cols-1
+  sm:grid-cols-2
+  lg:grid-cols-4
+  gap-4
+  rounded-xl
+  border
+  bg-slate-50
+  p-4
+"
             >
 
               <div>
@@ -61,7 +61,7 @@ export default function DivisionPipeline({
                   Dividend
                 </div>
 
-                <div className="font-mono text-xl font-semibold">
+                <div className="font-mono text-base sm:text-xl font-semibold">
                   {step.dividend}
                 </div>
 
@@ -90,7 +90,7 @@ export default function DivisionPipeline({
                   Quotient
                 </div>
 
-                <div className="font-mono text-xl font-semibold">
+                <div className="font-mono text-base sm:text-xl font-semibold">
                   {step.quotient}
                 </div>
 

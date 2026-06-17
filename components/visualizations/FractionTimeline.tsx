@@ -40,7 +40,9 @@ export default function FractionTimeline({
               key={index}
               className="
                 grid
-                grid-cols-4
+                grid-cols-1
+sm:grid-cols-2
+lg:grid-cols-4
                 gap-6
                 rounded-xl
                 border
@@ -57,7 +59,7 @@ export default function FractionTimeline({
                   Current Fraction
                 </div>
 
-                <div className="font-mono text-xl font-semibold">
+                <div className="font-mono text-base sm:text-xl font-semibold">
                   {step.input.toFixed(6)}
                 </div>
 
@@ -86,7 +88,7 @@ export default function FractionTimeline({
                   Product
                 </div>
 
-                <div className="font-mono text-xl font-semibold">
+                <div className="font-mono text-base sm:text-xl font-semibold">
                   {step.multiplied.toFixed(6)}
                 </div>
 

@@ -108,7 +108,7 @@ export default function BitGrouping({
             Step 1: Original Binary Number
           </h3>
 
-          <div className="font-mono text-2xl">
+          <div className="font-mono text-lg sm:text-xl md:text-2xl break-all">
             {input}
           </div>
         </div>

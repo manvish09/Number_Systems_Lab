@@ -23,19 +23,21 @@ export default function FormulaCard({
       </div>
 
       <div
-        className="
-          mt-3
-          font-mono
-          text-lg
-        "
-      >
+  className="
+    mt-3
+    font-mono
+    text-sm
+    sm:text-lg
+    break-all
+  "
+>
         {formula}
       </div>
 
       <div
         className="
           mt-4
-          text-3xl
+          text-xl sm:text-2xl md:text-3xl
           font-bold
           text-green-600
         "

@@ -23,8 +23,7 @@ export default function StepCard({
         className="
           border-b
           bg-slate-50
-          px-6
-          py-4
+          px-4 sm:px-6 py-4
         "
       >
         <h3
@@ -39,7 +38,7 @@ export default function StepCard({
 
       <div
         className="
-          p-6
+          p-4 sm:p-6
         "
       >
         {children}

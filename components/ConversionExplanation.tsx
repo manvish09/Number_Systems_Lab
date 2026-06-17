@@ -35,7 +35,7 @@ export default function ConversionExplanation({
       result.target === 2);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-4 sm:space-y-6 md:space-y-8">
       <ConversionFlow
         sourceBase={result.source}
         targetBase={result.target}
@@ -66,7 +66,7 @@ export default function ConversionExplanation({
       {strategy === "INDIRECT" && (
         <>
           <div className="rounded-xl border bg-blue-50 p-5">
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold">
               Phase 1
             </h2>
 
@@ -113,7 +113,7 @@ export default function ConversionExplanation({
           Final Answer
         </h2>
 
-        <div className="mt-3 font-mono text-3xl font-bold">
+        <div className="mt-3 font-mono text-xl sm:text-2xl md:text-3xl font-bold break-all">
           {result.output}
         </div>
       </div>

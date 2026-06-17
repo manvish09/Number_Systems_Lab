@@ -56,7 +56,7 @@ export default function BaseToDecimalExplanation({
 
       <section>
 
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">
           Integer Part
         </h2>
 
@@ -113,7 +113,7 @@ export default function BaseToDecimalExplanation({
 
         <section>
 
-          <h2 className="text-2xl font-bold mb-2">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">
             Fractional Part
           </h2>
 
@@ -170,7 +170,7 @@ export default function BaseToDecimalExplanation({
 
       <section>
 
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">
           Final Decimal Value
         </h2>
 
