@@ -16,14 +16,19 @@ export default function FormulaSummary({
         p-5
       "
     >
-      <div
-        className="
-          font-mono
-          text-lg
-          break-all
-        "
-      >
-        {expression}
+      {/* Expression */}
+
+      <div className="overflow-x-auto pb-2">
+        <div
+          className="
+            min-w-max
+            whitespace-nowrap
+            font-mono
+            text-lg
+          "
+        >
+          {expression}
+        </div>
       </div>
 
       <div
@@ -33,14 +38,22 @@ export default function FormulaSummary({
         "
       />
 
-      <div
-        className="
-          text-3xl
-          font-bold
-          text-green-700
-        "
-      >
-        = {result}
+      {/* Result */}
+
+      <div className="overflow-x-auto pb-2">
+        <div
+          className="
+            min-w-max
+            whitespace-nowrap
+            font-mono
+            text-2xl
+            sm:text-3xl
+            font-bold
+            text-green-700
+          "
+        >
+          = {result}
+        </div>
       </div>
     </div>
   );
